@@ -4,7 +4,7 @@ Vagrant Puppet Ruby Passenger Nginx MongoDb
 
 Vagrant to control and provision machines, mainly for Ruby development purpose.
 
-NOTE: This plugin requires Vagrant 1.3+ (rather it built with Vagrant 1.3).
+NOTE: This plugin requires Vagrant 1.3+ (rather it was built with Vagrant 1.3).
 
 It installs
 
