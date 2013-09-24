@@ -1,0 +1,10 @@
+server {
+
+      listen <%= port %>;
+      server_name <%= host %>;
+      root <%= root %>;
+
+      access_log <%= scope.lookupvar('passenger_nginx::logdir') %>/<%= host %>_access.log;
+      error_log  <%= scope.lookupvar('passenger_nginx::logdir') %>/<%= host %>_error.log;
+
+}

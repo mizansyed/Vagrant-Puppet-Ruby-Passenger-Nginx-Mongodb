@@ -1,0 +1,14 @@
+server {
+
+      charset utf-8;
+      listen <%= port %>;
+      server_name <%= host %>;
+      root <%= root %>/current/public;
+
+      passenger_enabled on;
+      passenger_base_uri /;
+
+      access_log <%= scope.lookupvar('passenger_nginx::logdir') %>/<%= host %>_access.log;
+      error_log  <%= scope.lookupvar('passenger_nginx::logdir') %>/<%= host %>_error.log;
+
+}

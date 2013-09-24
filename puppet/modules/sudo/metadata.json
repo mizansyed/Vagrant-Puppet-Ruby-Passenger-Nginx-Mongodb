@@ -1,0 +1,31 @@
+{
+  "dependencies": [
+
+  ],
+  "types": [
+
+  ],
+  "summary": "Manage sudoers",
+  "source": "git://github.com/arnoudj/arnoudj-sudo",
+  "description": "Manage sudoers",
+  "author": "Arnoud de Jonge",
+  "checksums": {
+    "tests/init.pp": "c161eddd9fd01d601b3ac6b602ab1b67",
+    "README.md": "83f0e109f1a0124572db6473b22dfc0a",
+    "templates/sudoers.erb": "2574430db0eef8144de9eec50895acd4",
+    "spec/spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "Modulefile": "527acf04681ee1cf9afab10b78fd17a9",
+    "spec/classes/sudo_init_spec.rb": "aafe254658a8a5abac3ad670ec2166c8",
+    "Gemfile.lock": "545f353cb1ca7b8e2ce13fbd34fa76d3",
+    "manifests/init.pp": "02b5797e0378f57ff7be6db76a02a27b",
+    "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
+    "spec/defines/sudo_sudoers_spec.rb": "c62c16de4fd5f9dfdb9bc27605c53fd2",
+    "manifests/sudoers.pp": "c5324021a3f06e6c980784537b6e31ea",
+    "Gemfile": "f692cf5711164bb0006b43f9b7e25952",
+    "spec/fixtures/manifests/site.pp": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "license": "Apache License, Version 2.0",
+  "version": "1.0.1",
+  "name": "arnoudj-sudo",
+  "project_page": "UNKNOWN"
+}
